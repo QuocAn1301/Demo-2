@@ -1,0 +1,397 @@
+*
+{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ font-family:'Poppins',sans-serif;
+}
+body
+{
+    margin-top: -24px;
+}
+/* HEADER */
+header
+{
+    height: 67px;
+    width: 100%;
+    background-color: rgb(46, 43, 43);
+    position: relative;
+    padding: 11px 50px 5px 50px;
+}
+header .block1
+{
+    height: 60px;
+    width: 100%; 
+    padding: 0px 30px 0px 30px;
+}
+/* LOGO */
+header .block1 .logo
+{
+    height: 100px;
+    width: 140px;
+    margin-top: -25px;
+    margin-left: -30px;
+}
+header .block1 .logo:hover
+{
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);  
+}
+/* TASKBAR */
+header .block1 nav ul 
+{
+    position: absolute;
+    top: 23px;
+    right: 280px;
+    list-style-type: none;
+}
+header .block1 nav ul li 
+{
+
+    display:inline-block;
+}
+header .block1 nav ul li a
+{
+    text-decoration: none; 
+    font-size: 17px;
+    color: rgb(190, 191, 192);
+    padding: 24px;
+    border: 0;
+    background-color:transparent;
+    transition: .4s;
+}
+header .block1 nav ul li .g1
+{
+    background-color:rgb(228, 249, 41);
+    color:rgb(46, 43, 43);
+}
+header .block1 nav ul li:not(:last-child) .g2:hover
+{
+    padding: 24px;
+    color: rgb(46, 43, 43);
+    background-color:rgb(228, 249, 41); 
+}
+/*Menu con*/
+.sub-menu {
+    display: none;
+    padding: 0px;
+    z-index: 2;
+    margin-top: 23px;
+    }
+    header .block1 nav ul li:hover .sub-menu{
+    display: block;
+    }
+    header .block1 nav ul li .sub-menu{
+    position: absolute;
+    top: 20;
+    left: 0;
+    }
+    header .block1 nav ul .sub-menu li {
+    display: block;
+    background: black;
+    width: 101px;
+    padding: 20px 0;
+    }
+    header .block1 nav ul li .sub-menu a:hover
+    {
+        padding: 24px;
+        color: rgb(226, 246, 8);
+    }
+/*DL*/
+header .block1 .download
+{
+    background: transparent ;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    border: 3px solid rgb(190, 191, 192);
+    font-size:17px ;
+    color: rgb(190, 191, 192);
+    position: absolute;
+    top: 13px;
+    right: 80px;
+}
+header .block1 .download:hover
+{
+    color: rgb(46, 43, 43);
+    background: rgb(228, 249, 41) ;
+    border: 3px solid rgb(228, 249, 41);
+    transition: all .3s ease-in-out;
+    transform: scale(1.1);
+}
+/* FOETNITE */
+header .block1 .fortnite a
+{
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    top:13px;
+    left: 155px;
+    text-decoration: none; 
+    font-size: 29px;
+    font-family: 'Permanent Marker', cursive;
+    color:rgb(237, 239, 241) ;
+}
+header .block1 .fortnite a:hover
+{
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+    color:rgb(228, 249, 41);
+}
+/* HEADER */
+/*Body*/
+.body1
+{
+    display: flex;
+    height: 3984px;
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.body1 video 
+{
+    background-color: black;
+
+}
+/*phan 1*/
+.body1 .block2-1
+{
+    position: relative;
+    height: 700px;
+}
+.body1 .block2-1 .nd1
+{
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    top: 130px;
+    right: 115px;
+    text-align: center;
+    color: aliceblue;
+}
+.body1 .block2-1 .nd1 .c1
+{
+    font-family:'Permanent Marker', cursive;
+    font-size: 60px;
+}
+.body1 .block2-1 .nd1 td
+{
+    font-size: 36px;
+}
+.body1 .block2-1 .nd1 .c2
+{
+
+    font-size: 40px;
+    background-color:yellow;
+    color: black;
+    height: 70px;
+    width: 280px;
+    padding: 5px 10px 10px 10px;
+    margin: 15px auto auto 65px;
+}
+.body1 .block2-1 .nd1 .c2:hover
+{
+    color:yellow;
+    background-color: black;
+    transition: all .3s ease-in-out;
+    transform: scale(1.1);
+}
+/*phan 2*/
+.body1 .block2-2
+{
+    background-color: black;
+    height: 500px;
+    position: relative;
+}
+.body1 .block2-2 .nd1
+{
+    color: aliceblue;
+}
+.body1 .block2-2 img
+{
+    position: absolute;
+    right: 0px;
+    border-left: 5px solid red;
+}
+.body1 .block2-2 .nd1
+{
+    height: 460px;
+    width: 500px;
+    margin: 40px 0px 0px 40px;
+}
+.body1 .block2-2 .nd1 .c1
+{
+    font-size: 60px;
+}
+.body1 .block2-2 .nd1 .c2
+{
+    font-size: 40px;
+    background-color:red;
+    height: 90px;
+    width: 350px;
+    padding: 16px 10px 10px 36px;
+    margin: 15px 0px 0px 0px;
+}
+.body1 .block2-2 .nd1 .c2:hover
+{
+    background-color:white;
+    color: red;
+    transition: all .3s ease-in-out;
+    transform: scale(1.1);
+}
+/*phan 3*/
+.body1 .block2-3
+{
+    width: 100%;
+    height:904px;
+    position: relative;
+}
+.body1 .block2-3 .nd1
+{
+    text-align: center;
+    background-color: rgb(252, 235, 215);
+    position: absolute;
+    height: 130px;
+    top: 801px;
+}
+.body1 .block2-3 .nd1 .c1
+{
+    font-size: 30px;
+}
+.body1 .block2-3 .nd1 .c2
+{
+    font-size: 18px;
+}
+/*phan 4*/
+.body1 .block2-4
+{
+    position: relative;
+}
+.body1 .block2-4 .nd1
+{
+    background-color: black;
+    color: white;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    border-top: 10px solid red;
+    position: absolute;
+    top: 800px;
+}
+.body1 .block2-4 .nd1 .c1
+{
+    font-size: 50px;
+    padding: 18px;
+}
+.body1 .block2-4 .nd1 .c2
+{
+    font-size: 20px;
+    width: 80%;
+    margin-left: 155px;
+}
+.body1 .block2-4 .nd1 .c3
+{
+    margin: 30px 0px 0px 520px;
+    width: 500px;
+    font-size: 50px;
+    background-color: red;
+}
+.body1 .block2-4 .nd1 .c3:hover
+{
+    background-color: white;
+    color: red;
+    transition: all .3s ease-in-out;
+    transform: scale(1.1);
+}
+/* FOOTER */
+footer
+{
+    height: 520px;
+    width: 100%;
+    background-color: rgb(46, 43, 43);
+    position: relative;
+    padding: 50px;
+}
+footer .block3
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 30px;
+}
+/* social */
+footer .block3 .social
+{
+    height: 70px;
+    width: 450px;
+    margin-bottom: 16px;
+}
+footer .block3 .social a 
+{
+    font-size: 36px;
+    color: rgb(190, 191, 192);
+    margin-right: 20px;
+}
+/* Ve lai trang dau */
+footer .block3 .btt 
+{
+    position: absolute;
+    right: 30px;
+    top: 40px;
+}
+footer .block3 .btt a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(190, 191, 192);
+}
+/* TEEN */
+footer .block3 .Teen
+{
+    position: absolute;
+    right: 30px;
+    top: 139px;
+    height: 135px;
+    width: 240px;
+}
+/* table */
+footer .block3 table
+{
+    height: 180px;
+    width: 450px;
+    margin-bottom: 30px;
+}
+footer .block3 table td a
+{
+    text-decoration: none; 
+    color: rgb(190, 191, 192);
+}
+/* Van bang  */
+footer .block3 .vb
+{
+    font-size: 13px;
+    color: rgb(190, 191, 192);
+    height: 40px;
+    width: 900px;
+}
+footer .block3 .Nentang
+{
+    height: 70px;
+    width: 358px;
+    position: absolute;
+    right: 30px;
+    bottom: 8px;
+}
+footer .block3 .Nentang a 
+{
+    margin-left: 20px;
+    font-size: 36px;
+    color: rgb(190, 191, 192);
+}
+footer .block3 table td a:hover,footer .block3 .Nentang a:hover,
+footer .block3 .btt a:hover,footer .block3 .social a:hover
+{
+ color:rgb(228, 249, 41) ;
+}
+/* FOOTER */

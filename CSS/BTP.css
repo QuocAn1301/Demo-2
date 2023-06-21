@@ -1,0 +1,346 @@
+*
+{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ font-family:'Poppins',sans-serif;
+}
+body
+{
+    margin-top: -24px;
+}
+/* HEADER */
+header
+{
+    height: 67px;
+    width: 100%;
+    background-color: rgb(46, 43, 43);
+    position: relative;
+    padding: 11px 50px 5px 50px;
+}
+header .block1
+{
+    height: 60px;
+    width: 100%; 
+    padding: 0px 30px 0px 30px;
+}
+/* LOGO */
+header .block1 .logo
+{
+    height: 100px;
+    width: 140px;
+    margin-top: -25px;
+    margin-left: -30px;
+}
+header .block1 .logo:hover
+{
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);  
+}
+/* TASKBAR */
+header .block1 nav ul 
+{
+    position: absolute;
+    top: 23px;
+    right: 280px;
+    list-style-type: none;
+}
+header .block1 nav ul li 
+{
+
+    display:inline-block;
+}
+header .block1 nav ul li a
+{
+    text-decoration: none; 
+    font-size: 17px;
+    color: rgb(190, 191, 192);
+    padding: 24px;
+    border: 0;
+    background-color:transparent;
+    transition: .4s;
+}
+header .block1 nav ul li .g1
+{
+    background-color:rgb(228, 249, 41);
+    color:rgb(46, 43, 43);
+}
+header .block1 nav ul li:not(:last-child) .g2:hover
+{
+    padding: 24px;
+    color: rgb(46, 43, 43);
+    background-color:rgb(228, 249, 41); 
+}
+/*Menu con*/
+.sub-menu {
+    display: none;
+    padding: 0px;
+    z-index: 2;
+    margin-top: 23px;
+    }
+    header .block1 nav ul li:hover .sub-menu{
+    display: block;
+    }
+    header .block1 nav ul li .sub-menu{
+    position: absolute;
+    top: 20;
+    left: 0;
+    }
+    header .block1 nav ul .sub-menu li {
+    display: block;
+    background: black;
+    width: 101px;
+    padding: 20px 0;
+    }
+    header .block1 nav ul li .sub-menu a:hover
+    {
+        padding: 24px;
+        color: rgb(226, 246, 8);
+    }
+header .block1 .download
+{
+    background: transparent ;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    border: 3px solid rgb(190, 191, 192);
+    font-size:17px ;
+    color: rgb(190, 191, 192);
+    position: absolute;
+    top: 13px;
+    right: 80px;
+}
+header .block1 .download:hover
+{
+    color: rgb(46, 43, 43);
+    background: rgb(228, 249, 41) ;
+    border: 3px solid rgb(228, 249, 41);
+    transition: all .3s ease-in-out;
+    transform: scale(1.1);
+}
+/* FOETNITE */
+header .block1 .fortnite a
+{
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    top:13px;
+    left: 155px;
+    text-decoration: none; 
+    font-size: 29px;
+    font-family: 'Permanent Marker', cursive;
+    color:rgb(237, 239, 241) ;
+}
+header .block1 .fortnite a:hover
+{
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+    color:rgb(228, 249, 41);
+}
+/* HEADER */
+main
+{
+    height: 2520px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(210,16,16,1) 0%, rgba(14,48,212,1) 100%);
+}
+.body1
+{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.body1 .chữ
+{
+    text-align: center;
+    color: aliceblue;
+    position: absolute;
+    top: 200px;
+    left: 390px;
+    text-shadow: 2px 0 0 #1f1e1e, -2px 0 0 #1f1e1e, 0 2px 0 #1f1e1e, 0 -2px 0 #1f1e1e, 1px 1px #1f1e1e, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.body1 .chữ img:hover
+{
+    transition: all .2s ease-in-out;
+    transform: scale(1.1); 
+}
+  .body1-3
+  {
+    text-align: center;
+    position: relative;
+    color: #fff;
+    margin-left: 2px;
+    margin-top: -58px;
+  }
+  .body1-3 .NoiDung
+  {
+    width: 800px;
+    height: auto;
+    position: absolute;
+    top:53px;
+    left: 362px;
+  }
+  .body1-3 .NoiDung .ct
+  {
+    color: rgb(199, 119, 250);
+    font-size: 60px;
+    font-weight: 900;
+  }
+  .body1-3 .NoiDung .ctr
+  {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 700;
+  }
+.body1-4 
+{
+  height: 380px;
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+  border-bottom: 10px solid rgb(170, 7, 7);
+  border-top: 10px solid rgb(170, 7, 7);
+}
+.body1-4 .hp
+{
+  margin-left: 70.4%;
+  margin-top: -2000px;
+}
+.body1-4 .chu
+{
+  position: absolute;
+  top: 10px;
+  left: 32.5%;
+}
+.body1-5
+{
+  width:100%;
+  height: 800px;
+  background-image:url("/images/v.jpg") ;
+  padding: 95px;
+  border-bottom: 10px solid rgb(170, 7, 7);
+}
+.body1-5 .nd
+{
+  text-align: center;
+}
+.body1-5 button
+{
+  margin-top: 30px;
+  background-color: yellow;
+  font-size: 18px;
+  font-weight: 700;
+  height: 70px; width: 200px;
+}
+.body1-5 button:hover
+{
+  color: yellow;
+  background-color: #0a0a0a;
+  transition: all .3s ease-in-out;
+  transform: scale(1.1);
+  border: 2px solid yellow;
+}
+/* FOOTER */
+footer
+{
+    height: 520px;
+    width: 100%;
+    background-color: rgb(46, 43, 43);
+    position: relative;
+    padding: 50px;
+}
+footer .block3
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 30px;
+}
+/* social */
+footer .block3 .social
+{
+    height: 70px;
+    width: 450px;
+    margin-bottom: 16px;
+}
+footer .block3 .social a 
+{
+    font-size: 36px;
+    color: rgb(190, 191, 192);
+    margin-right: 20px;
+}
+/* Ve lai trang dau */
+footer .block3 .btt 
+{
+    position: absolute;
+    right: 30px;
+    top: 40px;
+}
+footer .block3 .btt a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(190, 191, 192);
+}
+/* TEEN */
+footer .block3 .Teen
+{
+    position: absolute;
+    right: 30px;
+    top: 139px;
+    height: 135px;
+    width: 240px;
+}
+/* table */
+footer .block3 table
+{
+    height: 180px;
+    width: 450px;
+    margin-bottom: 30px;
+}
+footer .block3 table td a
+{
+    text-decoration: none; 
+    color: rgb(190, 191, 192);
+}
+/* Van bang  */
+footer .block3 .vb
+{
+    font-size: 13px;
+    color: rgb(190, 191, 192);
+    height: 40px;
+    width: 900px;
+}
+footer .block3 .Nentang
+{
+    height: 70px;
+    width: 358px;
+    position: absolute;
+    right: 30px;
+    bottom: 8px;
+}
+footer .block3 .Nentang a 
+{
+    margin-left: 20px;
+    font-size: 36px;
+    color: rgb(190, 191, 192);
+}
+footer .block3 table td a:hover,footer .block3 .Nentang a:hover,
+footer .block3 .btt a:hover,footer .block3 .social a:hover
+{
+ color:rgb(228, 249, 41) ;
+}
+/* FOOTER */
+.c
+{
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+ position: absolute;
+ left: 21%;
+ top: 42%;
+  text-shadow: 2px 0 0 #396e87, -2px 0 0 #f11e76, 0 2px 0 #eb0dd1, 0 -2px 0 #121212, 1px 1px #1f1e1e, -1px -1px 0 #0e0e0e, 1px -1px 0 #0a0a0a, -1px 1px 0 #4e4646;
+}
